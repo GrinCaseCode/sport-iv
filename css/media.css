@@ -552,6 +552,9 @@
 	.item-step__number {
 		top: 36px;
 	}
+	.item-step:hover .item-step__number {
+		font-size: 274px;
+	}
 	.row_steps > div {
 		margin-bottom: 0;
 		margin-top: 0;
