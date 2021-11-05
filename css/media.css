@@ -47,6 +47,32 @@
 	.sidebar-article__wrap {
 		padding-left: 20px;
 	}
+	.table-rating td:nth-child(2), .table-rating td:nth-child(3), .table-rating td:nth-child(4) {
+    width: 245px;
+}
+.table-rating td:nth-child(5) {
+	width: 165px;
+}
+.best-diets__item {
+    padding: 75px 40px;
+    padding-bottom: 65px;
+}
+.main-card {
+	padding: 45px;
+	max-width: 400px;
+}
+.row_diets-advantages {
+	padding: 0 30px;
+}
+.video-block__image {
+	height: 415px;
+}
+.comments-main {
+	padding: 70px 50px;
+}
+.rating_estimate .rating__item {
+	font-size: 43px;
+}
 }
 @media only screen and (max-width : 1400px) {
 	body {
@@ -166,6 +192,37 @@
 		padding: 25px 15px;
 		padding-bottom: 35px;
 	}
+	.sidebar-expert blockquote {
+    font-size: 13px;
+    line-height: 22px;
+}
+.sidebar-expert {
+	margin-left: -15px;
+}
+.select-sorting .jqselect {
+	width: 370px;
+}
+.title-th {
+	font-size: 16px;
+}
+.table-rating td:nth-child(2), .table-rating td:nth-child(3), .table-rating td:nth-child(4) {
+	width: 200px;
+}
+.main-card {
+	top: -40px;
+}
+.video-block__image {
+    height: 350px;
+}
+.video-block__content {
+	padding: 20px 15px;
+}
+.comment-form {
+	padding: 40px 30px;
+}
+.rating_estimate .rating__item {
+	font-size: 35px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -675,6 +732,191 @@
 		display: block;
 		display: none;
 	}
+	.sidebar-expert {
+		margin-left: 0;
+	}
+	.select-sorting,
+	.sortings-wrap {
+		display: block;
+	}
+	.select-sorting .jqselect {
+		width: 100%;
+	}
+	.select-sorting .title-min {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.select-sorting {
+		margin: 15px 0;
+	}
+	.title-th {
+		font-size: 14px;
+	}
+	.best-info {
+		padding-top: 50px;
+	}
+	.best-info .title-section {
+		text-align: left;
+	}
+	.best-info .title-middle {
+		font-weight: 700;
+	}
+	.main-card {
+		max-width: 100%;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		position: relative;
+		top: 0;
+		padding: 0;
+	}
+	.best-diets__item .title-section,
+	.best-diets__content {
+		padding-right: 0;
+		min-height: initial;
+	}
+	.best-diets__item {
+		margin: 0 -15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.best-diets__block {
+		padding-top: 100px;
+		margin-bottom: 50px;
+		background-size: 100% auto;
+	}
+	.man_card__content {
+		padding: 0 15px;
+		padding-bottom: 20px;
+		display: none;
+	}
+	.best-diets__wrap {
+		padding: 0 15px;
+		display: none;
+	}
+	.best-diets__item {
+		padding: 0;
+		background-image: url(../img/bg-diets_mob.png);
+		    backdrop-filter: none;
+	}
+	.best-diets__item .title-section {
+		height: 150px;
+		margin-bottom: 0;
+		padding: 0 15px;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.main-card .title-min {
+		padding: 11px 10px;
+		position: relative;
+		margin: 0;
+	}
+	.main-card .title-min::after {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 24px;
+	height: 24px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 10px;
+	background-image: url(../img/chevron-down2.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	transition: all 0.3s;
+	}
+	.main-card .title-min.active::after {
+		transform: rotate(180deg);
+	}
+	.row_diets-info {
+		margin-top: 0;
+	}
+	.row_diets-info > div {
+		margin-bottom: 20px;
+	}
+	.row_diets-advantages .title-min img {
+		position: static;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.row_diets-advantages {
+		background-color: #fff;
+		padding-bottom: 15px;
+	}
+	.row_diets-advantages > div {
+		margin-bottom: 20px;
+	}
+	.row_diets-advantages > div:nth-child(2)::before {
+		display: none;
+	}
+	.best-info_bottom {
+		padding-top: 0;
+	}
+	.title-section_left {
+		text-align: left;
+	}
+	.col-lg-3 .video-block {
+		display: none;
+	}
+	.video-block__image {
+    height: 390px;
+}
+/*youtube video inside fancybox*/
+      .fancybox-type-iframe .fancybox-inner {
+    height: auto !important;
+}
+    .fancybox-type-iframe iframe{
+  width: calc(100vw - 40px);
+  height: calc(100vw/1.77);
+}
+.video-block__content {
+	display: block;
+}
+.video-block .time-min {
+	margin: 0;
+	margin-top: 10px;
+}
+.comments-main {
+	margin-top: 40px;
+	padding: 0;
+	background-color: transparent;
+}
+.comments-main .title-section {
+	margin-bottom: 35px;
+	text-align: left;
+}
+.comment-form .title-middle {
+	font-size: 28px;
+	line-height: 32px;
+}
+.rating_estimate {
+	max-width: 100%;
+}
+.rating_estimate .rating__item {
+	font-size: 40px;
+}
+.comment-form .item-form {
+	margin-bottom: 20px;
+}
+.comment-form__bottom {
+	display: block;
+}
+.comment-form__bottom .checkbox {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.comment-form .btn-main {
+	width: 100%;
+}
+.comment-form {
+	padding: 35px 22px;
+}
+.item-form input {
+	height: 44px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -684,20 +926,22 @@
 		font-size: 14px;
 		line-height: 20px;
 	}
+	.table-rating table,
 	.table-wrap table {
 		width: initial;
 	}
+	.table-rating table td,
 	.table-wrap table td {
 		min-width: calc(100vw - 80px);
 		position: relative;
 	}
+	.table-rating table td::after,
 	.table-wrap table td::after {
 		position: absolute;
 		display: block;
 		content: " ";
 		width: 24px;
 		height: 24px;
-
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100% 100%;
@@ -706,13 +950,37 @@
 		bottom: 0;
 		margin: auto;
 	}
+	.image-td {
+		width: 39px;
+		height: 39px;
+		margin-right: 10px;
+	}
+	.table-rating th:first-child {
+		padding-left: 10px;
+	}
+	.table-rating th {
+		padding: 17.6px 0;
+	}
+	.table-rating .jspHorizontalBar .jspArrow {
+		top: 0;
+	}
+	.table-rating td {
+		padding: 10px 9px;
+	}
+	.title-th {
+		font-size: 18px;
+	}
+	.table-rating .title-min {
+		font-size: 16px;
+		font-weight: 400;
+	}
 	.article-main {
 		padding: 0;
 		background-color: transparent;
 		border-radius: 0;
 	}
 	.table-wrap td {
-		padding: 19px 0;
+		padding: 18.7px 0;
 		padding-left: 10px;
 	}
 	.table-wrap thead th {
@@ -731,7 +999,7 @@
 		background-color:transparent;
 		background-image: url(../img/arrow_right2.svg);
 		background-repeat: repeat-y;
-		background-size: 61px;
+		background-size: 60px;
 	}
 	.jspHorizontalBar {
 		top: 0;
@@ -803,6 +1071,7 @@
 	} 	
 }
 @media only screen and (max-width : 600px) {
+	.table-rating table td,
 	.table-wrap table td {
 		min-width: 100vw;
 	}
@@ -811,6 +1080,16 @@
 @media only screen and (max-width : 480px) {
 
 }
+@media only screen and (max-width : 440px) {
+	.best-diets__item .title-section {
+		padding-top: 40px;
+		    font-size: 24px;
+    line-height: 26px;
+	}
+	.best-diets__block {
+		background-size: 480px auto;
+	}
+	}
 @media only screen and (max-width : 380px) {
 .rating-wrap .rating {
 	margin-left: 15px;
@@ -851,6 +1130,9 @@
 	.mob-footer,
 	.button-mobile {
 		display: none !important;
+	}
+	.comment-form .item-form textarea {
+		height: 58px;
 	}
 }
 @media (min-width: 1400px) {
