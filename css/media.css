@@ -550,7 +550,7 @@
 		margin-right: -15px;
 	}
 	.item-step__number {
-		top: 36px;
+		top: 36px; 
 	}
 	.item-step:hover .item-step__number {
 		font-size: 265px;
