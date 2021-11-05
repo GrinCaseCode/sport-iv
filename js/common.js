@@ -15,12 +15,11 @@ $(window).scroll(function(){
 $('.table-wrap, .table-rating').jScrollPane(
 {
 	showArrows: true,
+	horizontalDragMaxWidth: 99999,
+
 	autoReinitialise: true
 }
 );
-
-
-
 
 $(".rating_estimate .rating__item").click(function() {
 	$(this).parent().removeClass("rating_1");
