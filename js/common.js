@@ -44,9 +44,14 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		offset:60
 	});
 
-$(".best-diets__item .title-section").click(function() {
+
+
+if ($(window).width() < 1200) {
+ $(".best-diets__item .title-section").click(function() {
 	$(this).siblings(".best-diets__wrap").slideToggle(200);
 	});
+
+    }
 
 $(".main-card .title-min").click(function() {
 	$(this).toggleClass("active");
