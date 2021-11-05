@@ -2097,12 +2097,12 @@ border-radius: 20px;
 .comment-form .title-middle {
 	padding-bottom: 25px;
 }
-.rating_estimate .rating__item {
+.comment-form .rating_estimate .rating__item {
 	font-size: 46px;
 	color: #ddeaf1;
 	margin: 0;
 }
-.rating_estimate  {
+.comment-form .rating_estimate  {
 	max-width: 310px;
 	justify-content: space-between;
 }

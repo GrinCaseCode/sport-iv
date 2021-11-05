@@ -19,16 +19,8 @@ $('.table-wrap, .table-rating').jScrollPane(
 }
 );
 
-$(".ratting-estimate .rating__item").click(function() {
-	$(this).parent().removeClass("rating_1");
-	$(this).parent().removeClass("rating_2");
-	$(this).parent().removeClass("rating_3");
-	$(this).parent().removeClass("rating_4");
-	$(this).parent().removeClass("rating_5");
-	var rating = $(this).attr("data-rating");
-	$(this).parent().addClass("rating_" + rating);
-	$(this).parent().siblings(".ratting-estimate__value").html("Ваша оценка " + rating + " из 5");
-});
+
+
 
 $(".rating_estimate .rating__item").click(function() {
 	$(this).parent().removeClass("rating_1");

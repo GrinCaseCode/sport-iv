@@ -70,7 +70,7 @@
 .comments-main {
 	padding: 70px 50px;
 }
-.rating_estimate .rating__item {
+.comment-form .rating_estimate .rating__item {
 	font-size: 43px;
 }
 }
@@ -220,7 +220,7 @@
 .comment-form {
 	padding: 40px 30px;
 }
-.rating_estimate .rating__item {
+.comment-form .rating_estimate .rating__item {
 	font-size: 35px;
 }
 }
@@ -892,10 +892,10 @@
 	font-size: 28px;
 	line-height: 32px;
 }
-.rating_estimate {
+.comment-form .rating_estimate {
 	max-width: 100%;
 }
-.rating_estimate .rating__item {
+.comment-form .rating_estimate .rating__item {
 	font-size: 40px;
 }
 .comment-form .item-form {
