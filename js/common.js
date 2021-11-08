@@ -45,16 +45,40 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 
 
-if ($(window).width() < 1200) {
- $(".best-diets__item .title-section").click(function() {
-	$(this).siblings(".best-diets__wrap").slideToggle(200);
-	});
+	if ($(window).width() < 1200) {
+		$(".best-diets__item .title-section").click(function() {
+			$(this).siblings(".best-diets__wrap").slideToggle(200);
+		});
 
-    }
+	}
 
-$(".main-card .title-min").click(function() {
-	$(this).toggleClass("active");
-	$(this).siblings(".man_card__content").slideToggle(200);
+	if ($(window).width() < 992) {
+		$(".btn-tab").click(function(e) {
+			e.preventDefault();
+			$(this).siblings(".tabs-simple").find("li:not(.active)").slideToggle(200);
+			$(this).toggleClass("active");
+		});
+
+		$(".tabs-simple li a").click(function(e) {
+			e.preventDefault();
+			if ($(this).parent().hasClass("active")) {
+			
+		} else {
+			$(this).parent().siblings(".active").removeClass("active");
+			$(this).parent().addClass("active");
+			$(this).parent().siblings().slideUp(200);
+			$(this).parent().parent().siblings(".btn-tab").removeClass("active");
+		}
+
+			
+		});
+
+
+	}
+
+	$(".main-card .title-min").click(function() {
+		$(this).toggleClass("active");
+		$(this).siblings(".man_card__content").slideToggle(200);
 	});
 
 	//кнопка sandwich
@@ -118,6 +142,15 @@ $(".main-card .title-min").click(function() {
 		$(this).parent().parent().siblings(".tab-container-schedule").find(".tab-pane-schedule").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(200);
+	});
+
+	$('.tabs-results a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-results").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(200);
 	});
 
 	$(".input-phone").mask("+7 (999) 999-99-99");

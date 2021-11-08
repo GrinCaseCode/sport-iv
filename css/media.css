@@ -30,7 +30,7 @@
 	}
 	.sidebar-article {
 		margin-left: 60px;
-		width: 320px;
+		width: 320px; 
 	}
 	.item-step {
 		padding-left: 40px;
@@ -48,30 +48,70 @@
 		padding-left: 20px;
 	}
 	.table-rating td:nth-child(2), .table-rating td:nth-child(3), .table-rating td:nth-child(4) {
-    width: 245px;
-}
-.table-rating td:nth-child(5) {
-	width: 165px;
-}
-.best-diets__item {
-    padding: 75px 40px;
-    padding-bottom: 65px;
-}
-.main-card {
-	padding: 45px;
-	max-width: 400px;
-}
-.row_diets-advantages {
-	padding: 0 30px;
-}
-.video-block__image {
-	height: 415px;
-}
-.comments-main {
-	padding: 70px 50px;
-}
-.comment-form .rating_estimate .rating__item {
-	font-size: 43px;
+		width: 245px;
+	}
+	.table-rating td:nth-child(5) {
+		width: 165px;
+	}
+	.best-diets__item {
+		padding: 75px 40px;
+		padding-bottom: 65px;
+	}
+	.main-card {
+		padding: 45px;
+		max-width: 400px;
+	}
+	.row_diets-advantages {
+		padding: 0 30px;
+	}
+	.video-block__image {
+		height: 415px;
+	}
+	.comments-main {
+		padding: 70px 50px;
+	}
+	.comment-form .rating_estimate .rating__item {
+		font-size: 43px;
+	}
+	.item-quality {
+		padding: 55px 47px;
+	}
+	.special-info {
+		font-size: 15px;
+	}
+	.item-nutritionist__content,
+	.text-big,
+	.diet-page {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.preparation-block {
+		padding: 80px 70px;
+		background-position: right -82px top;
+	}
+	.item-schedule {
+		padding: 16px;
+		font-size: 13px;
+		margin: 0 7px;
+	}
+	.content-result {
+		margin-left: 0;
+	}
+	.tab-container-results {
+		padding: 50px 35px;
+	}
+	.item-recipe__image {
+		width: 330px;
+	}
+	.card-block {
+		padding: 60px 40px;
+	}
+	.card-block__content {
+		margin-left: -20px;
+	}
+	.item-program p {
+    font-size: 16px;
+    line-height: 26px;
 }
 }
 @media only screen and (max-width : 1400px) {
@@ -193,36 +233,86 @@
 		padding-bottom: 35px;
 	}
 	.sidebar-expert blockquote {
-    font-size: 13px;
-    line-height: 22px;
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.sidebar-expert {
+		margin-left: -15px;
+	}
+	.select-sorting .jqselect {
+		width: 370px;
+	}
+	.title-th {
+		font-size: 16px;
+	}
+	.table-rating td:nth-child(2), .table-rating td:nth-child(3), .table-rating td:nth-child(4) {
+		width: 200px;
+	}
+	.main-card {
+		top: -40px;
+	}
+	.video-block__image {
+		height: 350px;
+	}
+	.video-block__content {
+		padding: 20px 15px;
+	}
+	.comment-form {
+		padding: 40px 30px;
+	}
+	.comment-form .rating_estimate .rating__item {
+		font-size: 35px;
+	}
+	.nav-page__list {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.advatage-block {
+		padding: 41px 0;
+		padding-right: 45px;
+	}
+	.item-quality {
+		padding: 35px 26px;
+	}
+	.preparation-block__content {
+		max-width: 688px;
+	}
+	.info-apart {
+		padding: 45px 50px;
+	}
+	.item-nutritionist__content, .text-big, .diet-page {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.item-recipe__image {
+		width: 250px;
+		height: 360px;
+	}
+	.item-recipe__content {
+		padding: 15px;
+	}
+	.card-block .item-team__image {
+		height: 515px;
+	}
+	.card-block__content {
+		margin-left: -5px;
+	}
+	.card-block__features .item-team__feautere {
+		font-size: 14px;
+		margin-right: 15px;
+	}
+	.card-block__features .item-team__features {
+		margin-left: 15px;
+		padding-left: 15px;
+	}
+	.item-program {
+		padding: 25px 15px;
+	}
+	.item-program p {
+    font-size: 14px;
+    line-height: 24px;
 }
-.sidebar-expert {
-	margin-left: -15px;
-}
-.select-sorting .jqselect {
-	width: 370px;
-}
-.title-th {
-	font-size: 16px;
-}
-.table-rating td:nth-child(2), .table-rating td:nth-child(3), .table-rating td:nth-child(4) {
-	width: 200px;
-}
-.main-card {
-	top: -40px;
-}
-.video-block__image {
-    height: 350px;
-}
-.video-block__content {
-	padding: 20px 15px;
-}
-.comment-form {
-	padding: 40px 30px;
-}
-.comment-form .rating_estimate .rating__item {
-	font-size: 35px;
-}
+
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -804,8 +894,8 @@
 	.best-diets__item {
 		padding: 0;
 		background-image: url(../img/bg-diets_mob.png);
-		    backdrop-filter: none;
-		    background-size: initial;
+		backdrop-filter: none;
+		background-size: initial;
 	}
 	.best-diets__item .title-section {
 		height: 150px;
@@ -822,20 +912,20 @@
 		margin: 0;
 	}
 	.main-card .title-min::after {
-	position: absolute;
-	display: block;
-	content: " ";
-	width: 24px;
-	height: 24px;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	right: 10px;
-	background-image: url(../img/chevron-down2.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	transition: all 0.3s;
+		position: absolute;
+		display: block;
+		content: " ";
+		width: 24px;
+		height: 24px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 10px;
+		background-image: url(../img/chevron-down2.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%;
+		transition: all 0.3s;
 	}
 	.main-card .title-min.active::after {
 		transform: rotate(180deg);
@@ -871,61 +961,220 @@
 		display: none;
 	}
 	.video-block__image {
-    height: 390px;
-}
-/*youtube video inside fancybox*/
-      .fancybox-type-iframe .fancybox-inner {
-    height: auto !important;
-}
-    .fancybox-type-iframe iframe{
-  width: calc(100vw - 40px);
-  height: calc(100vw/1.77);
-}
-.video-block__content {
-	display: block;
-}
-.video-block .time-min {
-	margin: 0;
-	margin-top: 10px;
-}
-.comments-main {
-	margin-top: 40px;
-	padding: 0;
-	background-color: transparent;
-}
-.comments-main .title-section {
-	margin-bottom: 35px;
-	text-align: left;
-}
-.comment-form .title-middle {
-	font-size: 28px;
-	line-height: 32px;
-}
-.comment-form .rating_estimate {
-	max-width: 100%;
-}
-.comment-form .rating_estimate .rating__item {
-	font-size: 40px;
-}
-.comment-form .item-form {
-	margin-bottom: 20px;
-}
-.comment-form__bottom {
-	display: block;
-}
-.comment-form__bottom .checkbox {
-	margin-top: 0;
-	margin-bottom: 10px;
-}
-.comment-form .btn-main {
-	width: 100%;
-}
-.comment-form {
-	padding: 35px 22px;
-}
-.item-form input {
-	height: 44px;
-}
+		height: 390px;
+	}
+	/*youtube video inside fancybox*/
+	.fancybox-type-iframe .fancybox-inner {
+		height: auto !important;
+	}
+	.fancybox-type-iframe iframe{
+		width: calc(100vw - 40px);
+		height: calc(100vw/1.77);
+	}
+	.video-block__content {
+		display: block;
+	}
+	.video-block .time-min {
+		margin: 0;
+		margin-top: 10px;
+	}
+	.comments-main {
+		margin-top: 40px;
+		padding: 0;
+		background-color: transparent;
+	}
+	.comments-main .title-section {
+		margin-bottom: 35px;
+		text-align: left;
+	}
+	.comment-form .title-middle {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.comment-form .rating_estimate {
+		max-width: 100%;
+	}
+	.comment-form .rating_estimate .rating__item {
+		font-size: 40px;
+	}
+	.comment-form .item-form {
+		margin-bottom: 20px;
+	}
+	.comment-form__bottom {
+		display: block;
+	}
+	.comment-form__bottom .checkbox {
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.comment-form .btn-main {
+		width: 100%;
+	}
+	.comment-form {
+		padding: 35px 22px;
+	}
+	.item-form input {
+		height: 44px;
+	}
+	.tabs-simple + .title-min {
+		margin-top: 0px;
+	}
+	.tabs-simple {
+		background: #FFFFFF;
+		margin-bottom: 30px;
+		border: 1px solid #EFEFF7;
+		border-radius: 10px;
+		flex-direction: column;
+		align-items: flex-start;
+		position: relative;
+	}
+	.btn-tab {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		z-index: 2;
+	}
+	.tabs-wrap {
+		position: relative;
+	}
+	.btn-tab::after {
+		position: absolute;
+		display: block;
+		content: " ";
+		width: 24px;
+		height: 24px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 10px;
+		background-image: url(../img/chevron-down.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%;
+		transition: all 0.3s;
+	}
+	.btn-tab.active::after {
+		transform: rotate(180deg);
+	}
+	.tabs-simple .active a {
+		font-weight: 700;
+	}
+	.tabs-simple .active {
+		order: -1;
+	}
+	.tabs-simple .active a, .tabs-simple a:hover {
+		background-color: #fff;
+		color: #373742;
+	}
+	.tabs-simple li {
+		width: 100%;
+	}
+	.tabs-simple:not(.active) li:not(.active) {
+		display: none;
+	}
+	.tabs-simple a {
+		padding: 15px 10px;
+		padding-right: 40px;
+		width: 100%;
+		margin: 0;
+	}
+	.title-big_desktop {
+		display: none;
+	}
+	.title-big_mobile {
+		display: block;
+	}
+	.team-page .col_sidebar {
+		padding-bottom: 30px;
+	}
+	.team-page .head-block {
+		margin-top: 0;
+	}
+	.row_team > div {
+		margin-bottom: 20px;
+	}
+	.row_team > div:nth-child(n+5) {
+		display: none;
+	}
+	.pager-nav {
+		justify-content: center;
+	}
+	.pager-btn {
+		width: 50px;
+		height: 50px;
+		margin: 0 10px;
+	}
+	.card-block .item-team__image {
+		height: 418px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	.card-block .item-team {
+			border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+	}
+	.card-block {
+		border-radius: 0;
+		box-shadow: none;
+		padding: 25px 20px;
+		margin: 0 -15px;
+	}
+	.card-block .title-section {
+		margin-top: 30px;
+		text-align: left;
+	}
+	.card-block__features {
+		display: block;
+	}
+	.card-block__features .item-team__features {
+		padding: 0;
+		margin: 0;
+		flex-wrap: wrap;
+		border: none;
+	}
+	.card-block__features .item-team__feautere {
+		margin-top: 10px;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+	.card-block__features {
+		margin-bottom: 20px;
+	}
+	.item-sertificat {
+		width: 153px;
+		height: 116px;
+		margin-right: 10px;
+	}
+	.card-block ul {
+		columns: 1;
+	}
+	.sertificats-wrap {
+		margin-bottom: 20px;
+	}
+	.card-block .btn-main {
+		margin-top: 20px;
+	}
+	.program-features {
+		padding-top: 0;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.feature-program {
+		font-size: 16px;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+	.row_programs > div {
+		margin-bottom: 30px;
+	}
+	.item-program .title-small {
+		margin-bottom: 10px;
+	}
+	.row_programs > div:last-child {
+		margin-bottom: 0;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1028,6 +1277,7 @@
 	.jspHorizontalBar {
 		height: 0 !important;
 	}
+
 }
 
 /* Small Devices, Tablets */
@@ -1092,17 +1342,17 @@
 @media only screen and (max-width : 440px) {
 	.best-diets__item .title-section {
 		padding-top: 40px;
-		    font-size: 24px;
-    line-height: 26px;
+		font-size: 24px;
+		line-height: 26px;
 	}
 	.best-diets__block {
 		background-size: 480px auto;
 	}
-	}
-@media only screen and (max-width : 380px) {
-.rating-wrap .rating {
-	margin-left: 15px;
 }
+@media only screen and (max-width : 380px) {
+	.rating-wrap .rating {
+		margin-left: 15px;
+	}
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -1134,6 +1384,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.team_mobile,
 	.menu-mobile,
 	.mob-user,
 	.mob-footer,
