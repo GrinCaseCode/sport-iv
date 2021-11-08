@@ -127,7 +127,7 @@ p {
 	color: #FF6D8D;
 }
 .btn-main:hover img {
-	filter: invert(0.5) sepia(1) hue-rotate(305deg) saturate(8) brightness(1);
+	filter: invert(0.5) sepia(1) hue-rotate(305deg) saturate(5) brightness(1);
 }
 .btn-main:focus {
 	color: #fff;
