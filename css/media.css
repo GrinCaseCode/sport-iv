@@ -1185,6 +1185,9 @@
 		    margin-bottom: -15px;
     position: relative;
 	}
+	.breadcrumbs {
+		padding: 25px 0;
+	}
 }
 
 /* Medium Devices, Desktops */
