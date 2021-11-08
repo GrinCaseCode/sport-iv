@@ -1127,6 +1127,7 @@
 	}
 	.card-block__features {
 		display: block;
+		max-width: 250px;
 	}
 	.card-block__features .item-team__features {
 		padding: 0;
@@ -1157,6 +1158,7 @@
 		margin-top: 20px;
 	}
 	.program-features {
+		padding: 0 40px;
 		padding-top: 0;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -1174,6 +1176,14 @@
 	}
 	.row_programs > div:last-child {
 		margin-bottom: 0;
+	}
+	.card .comment-form {
+		margin: 0 -15px;
+	}
+	.card {
+		padding-bottom: 0;
+		    margin-bottom: -15px;
+    position: relative;
 	}
 }
 
@@ -1352,6 +1362,9 @@
 @media only screen and (max-width : 380px) {
 	.rating-wrap .rating {
 		margin-left: 15px;
+	}
+	.program-features {
+		padding: 0;
 	}
 }
 /* Custom, iPhone Retina */
