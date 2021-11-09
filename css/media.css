@@ -110,9 +110,9 @@
 		margin-left: -20px;
 	}
 	.item-program p {
-    font-size: 16px;
-    line-height: 26px;
-}
+		font-size: 16px;
+		line-height: 26px;
+	}
 }
 @media only screen and (max-width : 1400px) {
 	body {
@@ -309,9 +309,9 @@
 		padding: 25px 15px;
 	}
 	.item-program p {
-    font-size: 14px;
-    line-height: 24px;
-}
+		font-size: 14px;
+		line-height: 24px;
+	}
 
 }
 /* Large Devices, Wide Screens */
@@ -652,19 +652,24 @@
 		width: 360px;
 		flex: none;
 	}
+	.row_qualities::-webkit-scrollbar,
 	.row_steps::-webkit-scrollbar {
 		-webkit-appearance: none;
 	}
+	.row_qualities::-webkit-scrollbar:vertical,
 	.row_steps::-webkit-scrollbar:vertical {
 		width: 10px;
 	}
+	.row_qualities::-webkit-scrollbar:horizontal,
 	.row_steps::-webkit-scrollbar:horizontal {
 		height: 10px;
 	}
+	.row_qualities::-webkit-scrollbar-thumb,
 	.row_steps::-webkit-scrollbar-thumb {
 		background-color: #C5A9FB;
 		border-radius: 50px;
 	}
+	.row_qualities::-webkit-scrollbar-track,
 	.row_steps::-webkit-scrollbar-track {
 		border-radius: 50px;
 		background-color: #fff;
@@ -1112,7 +1117,7 @@
 		border-bottom-left-radius: 0px;
 	}
 	.card-block .item-team {
-			border-bottom-right-radius: 0px;
+		border-bottom-right-radius: 0px;
 		border-bottom-left-radius: 0px;
 	}
 	.card-block {
@@ -1182,12 +1187,337 @@
 	}
 	.card {
 		padding-bottom: 0;
-		    margin-bottom: -15px;
-    position: relative;
+		margin-bottom: -15px;
+		position: relative;
 	}
 	.breadcrumbs {
 		padding: 25px 0;
 	}
+	.diet-page .title-big {
+		margin-bottom: 10px;
+	}
+	.card-simple {
+		font-size: 18px;
+		line-height: 28px;
+		padding: 25px 15px;
+	}
+	.card-simple__icon {
+		margin-bottom: 10px;
+	}
+	.card-simple .title-small {
+		margin-bottom: 10px;
+	}
+	.row_cards > div {
+		margin-bottom: 10px;
+	}
+	.advatage-block {
+		background-position: left top;
+		background-size: 100% auto;
+		padding: 0;
+		padding-top: 118px;
+		border-radius: 0;
+		margin: 0 -15px;
+		margin-top: 40px;
+	}
+	.advatage-block__content {
+		padding: 50px 15px;
+		background: rgba(255, 255, 255, 0.6);
+		backdrop-filter: blur(30px);
+	}
+	.advatage-block .title-section {
+		text-align: left;
+	}
+	.item-nutritionist__content, .text-big, .diet-page {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.advatage-block .btn-main {
+		margin-top: 20px;
+	}
+	.col_special {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.col_special .title-section {
+		font-size: 36px;
+		line-height: 40px;
+		text-align: left;
+	}
+	.row_qualities {
+		padding-top: 40px;
+		margin-top: -20px;
+		margin-bottom: 50px;
+		flex-wrap: nowrap;
+		overflow: auto;
+	}
+	.row_qualities > div {
+		flex: none;
+	}
+	.special-info {
+		font-size: 16px;
+		padding: 25px 15px;
+		margin-top: 25px;
+	}
+	.special-info .row > div {
+		margin-bottom: 20px;
+	}
+	.special-info .row > div:last-child {
+		margin-bottom: 0;
+	}
+	.preparation-block {
+		margin: 0 -15px;
+		padding: 119px 15px;
+		font-size: 16px;
+		line-height: 24px;
+		padding-bottom: 30px;
+		margin-top: 40px;
+		border-radius: 0;
+		background-size: 1000px auto;
+		background-position: right -150px top -20px;
+	}
+	.preparation-block .title-section {
+		text-align: left;
+		max-width: 300px;
+	}
+	.best-diets__block_page {
+		margin: 0 -15px;
+		margin-bottom: 40px;
+		border-radius: 0;
+	}
+	.best-diets__item {
+		background-image: url(../img/bg-diets_mob2.png);
+		backdrop-filter: blur(3px);
+	}
+	.best-diets__block_page .best-diets__item {
+		padding-top: 0;
+		padding: 0 35px;
+	}
+	.info-apart {
+		padding: 25px 15px;
+		padding-bottom: 15px;
+	}
+	.row_diets-advantages {
+		padding: 0;
+	}
+	.row_diets-advantages ol {
+		padding-left: 20px;
+	}
+	.info-apart_alert ul li {
+		padding-right: 0;
+	}
+	.info-apart_alert ul {
+		columns: 1;
+	}
+	.info-apart_alert {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.info-apart_alert img {
+		position: relative;
+		right: 0;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.text-big {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.text-big ul,
+	.text-big p {
+		margin-bottom: 8px;
+	}
+	.step-diet {
+		padding-left: 0;
+		margin-top: 60px;
+	}
+	.best-diets__block_page .col-xl-8.text-big,
+	.best-diets__block_page .col-xl-8.text-big + .col-xl-4 {
+		background-color: #fff;
+	}
+	.col_steps {
+		margin-top: -40px;
+		z-index: -1;
+	}
+	.text-big_last {
+		padding-bottom: 30px;
+	}
+	.text-section_mobhidden {
+		display: none;
+	}
+	.schedule {
+		padding: 25px 15px;
+		margin: 0 -15px;
+		border-radius: 20px;
+	}
+	.schedule .title-section {
+		text-align: left;
+	}
+	.tabs-schedule {
+		display: block;
+	}
+	.tabs-schedule a {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.schedules-wrap {
+		padding: 0 15px;
+		padding-bottom: 10px;
+		display: block;
+		margin: 0;
+		display: none;
+	}
+	.unit-schedule {
+		background: #FFFFFF;
+		border: 1px solid #EFEFF7;
+		border-radius: 10px;
+		padding: 0;
+		margin-top: 10px;
+	}
+	.unit-schedule > .title-min {
+		padding: 15px 10px;
+		margin: 0;
+		font-size: 14px;
+		color: #373742;
+		position: relative;
+	}
+	.item-schedule {
+		margin: 0;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.unit-schedule > .title-min::after {
+		position: absolute;
+		display: block;
+		content: " ";
+		width: 24px;
+		height: 24px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 10px;
+		background-image: url(../img/chevron-down.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%;
+		transition: all 0.3s;
+	}
+	.unit-schedule > .title-min.active::after {
+		transform: rotate(180deg);
+	}
+	.tabs-results li {
+		margin-right: 15px;
+		width: 50%;
+		flex: none;
+	}
+	.tabs-results {
+		margin-right: -15px;
+		padding-right: 15px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.tab-container-results {
+		padding: 20px 15px;
+	}
+	.tab-container-results .title-middle {
+		text-align: center;
+	}
+	.wrap-result-estimate {
+		display: block;
+	}
+	.main-estimate {
+		width: 85px;
+		height: 85px;
+		margin: 0 auto;
+		font-size: 32px;
+line-height: 58px;
+margin-bottom: 30px;
+	}
+	.btn-wrap-mobile {
+		text-align: center;
+	}
+	.item-nutritionist {
+		padding: 25px 15px;
+		flex-wrap: wrap;
+	}
+	.item-nutritionist__content {
+		width: 100%;
+		padding-top: 20px;
+		flex: none;
+	}
+	.item-nutritionist__image {
+		width: 76px;
+		height: 76px;
+	}
+	.item-nutritionist__info {
+		padding-top: 0;
+		flex: 1;
+		margin-right: 0;
+		max-width: 100%;
+	}
+	.item-nutritionist__info .title-min {
+		margin-bottom: 0;
+	}
+	.item-nutritionist__descr {
+		margin-bottom: 0;
+	}
+	.item-nutritionist__content .icon-approval {
+		margin-bottom: 10px;
+	}
+	.line-date {
+		margin-bottom: 20px;
+	}
+	.item-recipe {
+		display: block;
+		border-radius: 0;
+		position: relative;
+		min-height: initial;
+		margin-bottom: 127px;
+	}
+	.item-recipe__image img,
+	.item-recipe__image {
+		border-radius: 0;
+	}
+	.item-recipe__image {
+		height: 505px;
+		margin: 0 -15px;
+		width: initial;
+	}
+	.item-recipe__content {
+		bottom: -85px;
+		left: 0px;
+		padding: 25px 25px;
+		right: 0px;
+		background: rgba(255, 255, 255, 0.7);
+backdrop-filter: blur(30px);
+border-radius: 20px;
+text-align: center;
+		position: absolute;
+		display: block;
+	}
+	.item-recipe__content .title-min {
+		text-align: left;
+	}
+	.line-composition {
+		color: #373742;
+		text-align: left;
+	}
+	.tags-recipes {
+		width: 100%;
+		justify-content: center;
+	}
+	.row_recipe + .head-block {
+		margin-top: 0;
+	}
+	.button-more {
+		margin-top: -30px;
+		text-align: center;
+	}
+	.button-more .btn-main {
+    padding-left: 12px;
+    margin-top: 20px;
+height: 44px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1350,7 +1680,9 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+.tabs-results li {
+	width: 100%;
+}
 }
 @media only screen and (max-width : 440px) {
 	.best-diets__item .title-section {
@@ -1400,6 +1732,8 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.button-more,
+	.mobile-section,
 	.team_mobile,
 	.menu-mobile,
 	.mob-user,

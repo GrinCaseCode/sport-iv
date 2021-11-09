@@ -50,6 +50,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(this).siblings(".best-diets__wrap").slideToggle(200);
 		});
 
+		$(".unit-schedule > .title-min").click(function() {
+			$(this).toggleClass("active");
+			$(this).siblings(".schedules-wrap").slideToggle(200);
+		});
+
 	}
 
 	if ($(window).width() < 992) {
