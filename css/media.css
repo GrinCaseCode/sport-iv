@@ -1351,9 +1351,11 @@
 		border-radius: 0;
 	}
 	.best-diets__item {
-		background-image: url(../img/bg-diets_mob2.png);
-		background-position: -1% 0;
+		background-image: url(../img/bg-diets_mob2.png);	
 		backdrop-filter: blur(3px);
+	}
+	.best-diets__block_page .best-diets__item {
+		background-position: -1% 0;
 	}
 	.best-diets__block_page .best-diets__item {
 		padding-top: 0;
