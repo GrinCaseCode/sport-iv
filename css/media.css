@@ -1352,6 +1352,7 @@
 	}
 	.best-diets__item {
 		background-image: url(../img/bg-diets_mob2.png);
+		background-position: -1% 0;
 		backdrop-filter: blur(3px);
 	}
 	.best-diets__block_page .best-diets__item {
@@ -1401,7 +1402,7 @@
 		background-color: #fff;
 	}
 	.col_steps {
-		margin-top: -40px;
+		margin-top: -20px;
 		z-index: -1;
 	}
 	.text-big_last {
