@@ -6,7 +6,7 @@
 	.menu {
 		margin: 0 15px;
 	}
-	.menu a {
+	.menu a { 
 		margin: 0 15px;
 	}
 	.line-about {
@@ -21,7 +21,7 @@
 	.title-block {
 		font-size: 25px;
 		line-height: 29px;
-	}
+	} 
 	.item-team__image {
 		height: 370px;
 	}
@@ -149,6 +149,10 @@
 	.sidebar {
 		padding: 30px 25px;
 	}
+	.item-product {
+		padding: 35px 30px;
+	}
+
 }
 @media only screen and (max-width : 1400px) {
 	body {
@@ -364,6 +368,15 @@
 	.products-block__item:not(:last-child) {
 		margin-bottom: 10px;
 	}
+	.rating-ozon .rating {
+		margin-right: 10px;
+	}
+	.rating-ozon {
+		display: block;
+	}
+	.video-sidebar iframe {
+    height: 148px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1735,6 +1748,33 @@ border-radius: 10px;
 	.products .tabs-simple {
 		margin-bottom: 10px;
 	}
+	.top-sorting {
+		margin-bottom: 10px;
+		display: block;
+	}
+	.top-sorting .checkbox_page {
+		display: none;
+	}
+	.top-sorting .jqselect {
+		margin: 0;
+		width: 100%;
+	}
+	.top-sorting .jq-selectbox__select-text {
+		padding-top: 14px;
+		padding-bottom: 14px;
+		font-weight: 700;
+		    border: 1px solid #EFEFF7;
+	}
+	.top-sorting .jq-selectbox__trigger::after {
+		right: 10px;
+		background-image: url(../img/chevron-down.svg);
+	}
+	.discounts .tabs-simple {
+		margin-bottom: 10px;
+	}
+	.discounts .sidebar {
+		margin-bottom: 30px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1836,7 +1876,31 @@ border-radius: 10px;
 	.jspHorizontalBar {
 		height: 0 !important;
 	}
-
+	.item-product {
+		padding: 15px;
+		padding-bottom: 22px;
+		display: block;
+	}
+	.item-product__image {
+		margin-right: 0;
+		width: 300px;
+		height: 300px;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+.item-product__top {
+	margin-bottom: 20px;
+	display: block;
+}
+.item-product__top .title-small {
+	margin-right: 0;
+	margin-bottom: 17px;
+}
+.item-product__feature {
+	border: none;
+	padding-left: 0;
+	margin-left: 0;
+}
 }
 
 /* Small Devices, Tablets */

@@ -193,6 +193,7 @@ $this_nav.slick({
   dots: false,
   slidesToShow: 3,
   slidesToScroll: 1,
+  focusOnSelect: true,
   asNavFor: $this_for,
   touchThreshold: 1000,
   infinite: false,
