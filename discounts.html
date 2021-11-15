@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/jScrollPane-master/style/jquery.jscrollpane.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="alt">
+					</a>
+					<ul class="menu">
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Рейтинг питания</a></li>
+						<li><a href="#">Рейтинги товаров</a></li>
+						<li><a href="#">Полезные статьи</a></li>
+					</ul>
+					<a href="#" class="btn-main btn-main_icon"><img src="img/tg.svg" alt="alt">Наш телеграм канал</a>
+					<ul class="social-list">
+						<li><a href="#"><img src="img/soc1.svg" alt="alt"></a></li>
+						<li><a href="#"><img src="img/soc2.svg" alt="alt"></a></li>
+					</ul>
+					<a href="#" class="link-icon"><img src="img/ic_work.svg" alt="alt">Стать клиентом</a>
+					<a href="#" class="link-icon link-icon_user"><img src="img/ic_user.svg" alt="alt">Личный кабинет <span class="arrow-main"></span></a>
+					<a class="mob-user"><img src="img/ic_user2.svg" alt="alt"></a>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Рейтинг питания</a></li>
+					<li><a href="#">Рейтинги товаров</a></li>
+					<li><a href="#">Полезные статьи</a></li>
+				</ul>
+				<a href="#" class="link-icon"><img src="img/ic_work.svg" alt="alt">Стать клиентом</a>
+				<a href="#" class="link-icon link-icon_user"><img src="img/ic_user.svg" alt="alt">Личный кабинет</a>
+				<a href="#" class="btn-main btn-main_icon btn-main_white"><img src="img/tg2.svg" alt="alt">Наш телеграм канал</a>
+				<ul class="social-list">
+					<li><a href="#"><img src="img/soc1.svg" alt="alt"></a></li>
+					<li><a href="#"><img src="img/soc2_1.svg" alt="alt"></a></li>
+				</ul>
+				<form>
+					<div class="form-simple">
+						<input type="email" placeholder="Ваш e-mail" required="required">
+						<button class="btn-main"><img src="img/ar_right3.svg" alt="alt">Регистрация</button>
+					</div>
+				</form>
+			</div>
+		</header>
+
+		<div class="discounts">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a><span>•</span></li>
+					<li>Скидки и акции</li>
+				</ul>
+				<div class="row">
+					<div class="col-xl-9">
+						<h1 class="title-big">Скидки и акции </h1>
+						<div class="top-sorting">
+							<div class="tabs-wrap">
+								<div class="btn-tab"></div>
+								<ul class="tabs-simple">
+									<li class="active"><a href="#">Все</a></li>
+									<li><a href="#">Скидки</a></li>
+									<li><a href="#">Купоны</a></li>
+									<li><a href="#">Подарки</a></li>
+								</ul>
+							</div>
+							<div class="checkbox checkbox_page">
+								<label>
+									<input type="checkbox" checked="checked" />
+									<span>Все акции </span>
+								</label>
+							</div>
+							<select>
+								<option value="1">Сортировать по рейтингу</option>
+								<option value="1">Сортировать по цене</option>
+								<option value="1">Сортировать по дате</option>
+							</select>
+						</div>
+						<div class="sidebar sidebar_mobile">
+							<form>
+								<div class="title-small">Фильтры</div>
+								<div class="sidebar__content">
+									<div class="sidebar__item">
+										<div class="title-min">Размер скидки</div>
+										<div class="sidebar-price__items">
+											<div class="sidebar-price__item">
+												<span>от</span> <input type="text" value="1 000">
+											</div>
+											<div class="sidebar-price__item">
+												<span>до</span> <input type="text" value="5 000">
+											</div>
+										</div>
+									</div>
+									<div class="sidebar__item">
+										<div class="title-min">Направления</div>
+										<div class="checkbox-items">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked >
+													<span>Фитнес</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked>
+													<span>Пилатес</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked>
+													<span>Йога</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="sidebar__item">
+										<div class="title-min">Принцип работы</div>
+										<div class="checkbox-items">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked>
+													<span>На этот месяц</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>На следующий месяц</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>На год</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="sidebar-button">
+										<button class="btn-main">Применить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="item-product">
+							<a href="#" class="item-product__image">
+								<img src="img/prod1.jpg" alt="alt">
+							</a>
+							<div class="item-product__content">
+								<div class="item-product__top">
+									<div class="title-small">Скидка 2800 руб.</div>
+									<div class="product-trainer"><div class="product-trainer__image"><img src="img/trainer_min1.jpg" alt="alt"></div>Тренер Ксения Шамаева</div>
+								</div>
+								<a href="#" class="title-section">На марафон по пилатесу </a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<a href="#" class="btn-main">Получить скидку</a>
+								<div class="item-product__bottom">
+									<div class="item-product__feature"><img src="img/ic_users.svg" alt="alt">Использовали 18 человек</div>
+									<div class="item-product__feature"><img src="img/ic_clock.svg" alt="alt">Акция истекает через 11 дней</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-product">
+							<a href="#" class="item-product__image">
+								<img src="img/prod2.jpg" alt="alt">
+							</a>
+							<div class="item-product__content">
+								<div class="item-product__top">
+									<div class="title-small">Акция -20%</div>
+									<div class="product-trainer"><div class="product-trainer__image"><img src="img/trainer_min1.jpg" alt="alt"></div>Тренер Ксения Шамаева</div>
+								</div>
+								<a href="#" class="title-section">На интенсив по фитнесу</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<a href="#" class="btn-main">Учавствую в акции</a>
+								<div class="item-product__bottom">
+									<div class="item-product__feature"><img src="img/ic_users.svg" alt="alt">Использовали 18 человек</div>
+									<div class="item-product__feature"><img src="img/ic_clock.svg" alt="alt">Акция истекает через 11 дней</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-product">
+							<a href="#" class="item-product__image">
+								<img src="img/prod3.jpg" alt="alt">
+							</a>
+							<div class="item-product__content">
+								<div class="item-product__top">
+									<div class="title-small">Купон -20%</div>
+									<div class="product-trainer"><div class="product-trainer__image"><img src="img/trainer_min1.jpg" alt="alt"></div>Тренер Ксения Шамаева</div>
+								</div>
+								<a href="#" class="title-section">На курс по йоге </a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<a href="#" class="btn-main">Получить скидку</a>
+								<div class="item-product__bottom">
+									<div class="item-product__feature"><img src="img/ic_users.svg" alt="alt">Использовали 18 человек</div>
+									<div class="item-product__feature"><img src="img/ic_clock.svg" alt="alt">Акция истекает через 11 дней</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-product">
+							<a href="#" class="item-product__image">
+								<img src="img/prod4.jpg" alt="alt">
+							</a>
+							<div class="item-product__content">
+								<div class="item-product__top">
+									<div class="title-small">Подарок 1 урок</div>
+									<div class="product-trainer"><div class="product-trainer__image"><img src="img/trainer_min1.jpg" alt="alt"></div>Тренер Ксения Шамаева</div>
+								</div>
+								<a href="#" class="title-section">Урок по акробатике бесплатно </a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+								<a href="#" class="btn-main">Получить скидку</a>
+								<div class="item-product__bottom">
+									<div class="item-product__feature"><img src="img/ic_users.svg" alt="alt">Использовали 18 человек</div>
+									<div class="item-product__feature"><img src="img/ic_clock.svg" alt="alt">Акция истекает через 11 дней</div>
+								</div>
+							</div>
+						</div>
+						<div class="pager-nav">
+							<a href="#" class="pager-btn pager-btn_prev disabled"></a>
+							<a href="#" class="pager-btn pager-btn_next"></a>
+						</div>
+					</div>
+					<div class="col-xl-3 col_sidebar-main">
+						<div class="sidebar">
+							<form>
+								<div class="title-small">Фильтры</div>
+								<div class="sidebar__content">
+									<div class="sidebar__item">
+										<div class="title-min">Размер скидки</div>
+										<div class="sidebar-price__items">
+											<div class="sidebar-price__item">
+												<span>от</span> <input type="text" value="1 000">
+											</div>
+											<div class="sidebar-price__item">
+												<span>до</span> <input type="text" value="5 000">
+											</div>
+										</div>
+									</div>
+									<div class="sidebar__item">
+										<div class="title-min">Направления</div>
+										<div class="checkbox-items">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked >
+													<span>Фитнес</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked>
+													<span>Пилатес</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked>
+													<span>Йога</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>Спорт</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="sidebar__item">
+										<div class="title-min">Принцип работы</div>
+										<div class="checkbox-items">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked>
+													<span>На этот месяц</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>На следующий месяц</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox">
+													<span>На год</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="sidebar-button">
+										<button class="btn-main">Применить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="ozon-block">
+							<div class="ozon-block__image">
+								<img src="img/ozon.jpg" alt="alt">
+							</div>
+							<div class="rating-ozon">
+								<div class="rating rating_5">
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+									<div class="rating__item"><i class="fas fa-star"></i></div>
+								</div>
+								<div>
+									<p>Оцените озон</p>
+									<p>5/5 <a href="#">170 голосов</a></p>
+								</div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent </p>
+							<a href="#" class="btn-main btn-main_white"><img src="img/ar_right.svg" alt="alt">Узнать больше</a>
+						</div>
+						<div class="video-sidebar">
+							<div class="title-min">Как получить скидку</div>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/YjS2uEJ78T4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4">
+						<div class="footer__left">
+							<a href="#" class="logo">
+								<img src="img/logo2.png" alt="alt">
+							</a>
+							<div class="footer__title">Получите нашу новостную рассылку о здоровье</div>
+							<p>Отфильтруйте шум и позаботьтесь о своем почтовом ящике с помощью советов по здоровью и благополучию, которые включают в себя и основаны на медицинском опыте.</p>
+							<form>
+								<div class="form-simple">
+									<input type="email" placeholder="Ваш e-mail" required="required">
+									<button class="btn-main"><img src="img/ar_right3.svg" alt="alt">Регистрация</button>
+								</div>
+							</form>
+							<p>Ваша <a href="#">конфиденциальность</a> важна для нас</p>
+						</div>
+					</div>
+					<div class="col-xl-8">
+						<div class="row">
+							<div class="col-xl-3 col-6">
+								<ul class="footer__nav">
+									<li><a href="#">О компании</a></li>
+									<li><a href="#">Оплата</a></li>
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">Вопрос-ответ</a></li>
+									<li><a href="#">Акции</a></li>
+									<li><a href="#">Скидки</a></li>
+									<li><a href="#">Вакансии</a></li>
+									<li><a href="#">Карта сайта</a></li>
+								</ul>
+							</div>
+							<div class="col-xl-4 col-6">
+								<div class="footer__center">
+									<ul class="footer__nav">
+										<li><a href="#">Новости</a></li>
+										<li><a href="#">Партнеры</a></li>
+										<li><a href="#">Работа в спортив</a></li>
+										<li><a href="#">Спортив журнал</a></li>
+										<li><a href="#">Услуги клуба</a></li>
+									</ul>
+									<div class="footer__subtitle">Подпишитесь на новости и акции</div>
+									<a href="#" class="btn-main btn-main_white"><img src="img/ar_right.svg" alt="alt">Подписаться</a>
+								</div>
+							</div>
+							<div class="col-xl-5">
+								<div class="footer__right">
+									<ul class="footer__nav">
+										<li><a href="#">Часто задаваемые вопросы (FAQ)</a></li>
+										<li><a href="#">Условия покупки</a></li>
+										<li><a href="#">Правила техники безопасности</a></li>
+										<li><a href="#">Рекламные возможности</a></li>
+										<li><a href="#">Услуги клуба</a></li>
+									</ul>
+									<p>© 2005-2021 Спортив. Все права защищены. Услуги, контент и продукты нашего веб-сайта предназначены только для информационных целей. Healthline Media не предоставляет медицинские консультации, диагностику или лечение. См. Дополнительную информацию .</p>
+								</div>
+								<div class="mob-footer">
+									<div class="footer__subtitle">Подпишитесь на новости и акции</div>
+									<a href="#" class="btn-main btn-main_white"><img src="img/ar_right.svg" alt="alt">Подписаться</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 offset-xl-4">
+							<ul class="footer__nav">
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Карьера</a></li>
+								<li><a href="#">Рекламируйте с нами</a></li>
+								<li><a href="#">Линия здоровья</a></li>
+								<li><a href="#">Новости сегодня </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jScrollPane-master/script/jquery.jscrollpane.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.7"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
