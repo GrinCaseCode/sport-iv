@@ -596,6 +596,7 @@
 		padding: 0 20px;
 		position: absolute;
 		top: 100%;
+		font-size: 16px;
 		left: 0;
 		width: 100%;
 		background: #6E569C;
@@ -622,7 +623,15 @@
 	.menu-mobile > .btn-main {
 		height: 50px;
 		width: 100%;
+		margin: 0 auto;
+		display: flex;
 		margin-top: 10px;
+		max-width: 300px;
+	}
+	.menu-mobile .form-simple {
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.menu-mobile .social-list {
 		margin-top: 20px;
@@ -790,7 +799,6 @@
 	}
 	.rate-buttons {
 		margin-top: 0px;
-		flex-direction: column;
 	}
 	.rate-buttons .btn-rate {
 		margin-top: 20px;
@@ -1063,7 +1071,7 @@
 		line-height: 32px;
 	}
 	.comment-form .rating_estimate {
-		max-width: 100%;
+		max-width: 360px;
 	}
 	.comment-form .rating_estimate .rating__item {
 		font-size: 40px;
@@ -1954,6 +1962,9 @@
 	.table-wrap table td {
 		min-width: calc(100vw - 195px);
 	} 	
+	.rate-buttons {
+		flex-direction: column;
+	}
 }
 @media only screen and (max-width : 600px) {
 	.table-rating table td,

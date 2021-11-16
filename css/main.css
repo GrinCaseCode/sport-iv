@@ -38,7 +38,7 @@ button {
 h1,h2,h3,h4,h5,h6 {
 	padding: 0;
 	margin: 0;
-	font-weight: normal;
+	font-weight: normal; 
 }
 .wrapper {
 	padding-top: 96px;
@@ -148,6 +148,7 @@ p {
 }
 .btn-main img {
 	margin-right: 20px;
+	margin-top: -3px;
 }
 .btn-main_icon {
 	padding-left: 12px;
@@ -160,7 +161,19 @@ p {
 	margin: 0 10px;
 	vertical-align: middle;
 	display: inline-block;
+	border-radius: 4px;
+	transition: all 0.3s;
 }
+.header__wrap .btn-main img {
+	margin-top: 0;
+}
+.social-list a img {
+transition: all 0.3s;
+}
+.social-list a:hover img {
+filter: contrast(300%);
+}
+
 .link-icon {
 	font-weight: 500;
 	color: #373742;
@@ -877,25 +890,17 @@ p {
 }
 .item-nav {
 	color: #373742;
-	padding: 16px 50px;
+	padding: 16px 10px;
 	padding-right: 3px;
 	margin-bottom: 10px;
 	background: #FFFFFF;
 	box-shadow: 0px 10px 20px rgba(66, 66, 66, 0.07);
 	border-radius: 10px;
-	display: block;
-	background-image: url(../img/id_doc1.svg);
-	background-position: 10px center;
-	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
 }
-.row_nav > div:nth-child(2) .item-nav {
-	background-image: url(../img/id_doc2.svg);
-}
-.row_nav > div:nth-child(3) .item-nav {
-	background-image: url(../img/id_doc3.svg);
-}
-.row_nav > div:nth-child(4) .item-nav {
-	background-image: url(../img/id_doc4.svg);
+.item-nav img {
+	margin-right: 10px;
 }
 .row_nav {
 	margin-bottom: 20px;
@@ -2228,6 +2233,7 @@ select {
 }
 .item-quality:hover  {
 	color: #373742;
+	color: #fff;
 }
 .item-quality:hover .title-min {
 	color: #fff;
@@ -4132,7 +4138,7 @@ select {
 	padding: 25px;
 	margin-top: 30px;
 	background: #FFFFFF;
-border-radius: 20px;
+	border-radius: 20px;
 }
 .ozon-block__image {
 	height: 192px;
@@ -4177,8 +4183,8 @@ border-radius: 20px;
 	padding: 29px 25px;
 	margin-top: 30px;
 	background: #FFFFFF;
-box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
-border-radius: 20px;
+	box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+	border-radius: 20px;
 }
 .video-sidebar iframe {
 	height: 192px;	
@@ -4186,3 +4192,12 @@ border-radius: 20px;
 	border-radius: 20px;
 	overflow: hidden;
 } 
+.jqselect ,
+.jqselect * {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;    
+}
