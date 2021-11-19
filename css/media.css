@@ -127,7 +127,7 @@
 		padding: 0 5px;
 	}
 	.products-block__descr {
-		margin-right: 4px;
+		padding-right: 4px;
 	}
 	.products-block {
 		padding-left: 20px;
@@ -1654,7 +1654,7 @@
 		margin-bottom: 18px;
 	}
 	.products-block__descr {
-		margin-right: 20px;
+		padding-right: 20px;
 	}
 	.products-block__item:not(:last-child),
 	.products-block__item {
@@ -1769,12 +1769,12 @@
 	.top-sorting .jqselect {
 		margin: 0;
 		width: 100%;
+		    border: 1px solid #EFEFF7;
 	}
 	.top-sorting .jq-selectbox__select-text {
 		padding-top: 14px;
 		padding-bottom: 14px;
 		font-weight: 700;
-		border: 1px solid #EFEFF7;
 	}
 	.top-sorting .jq-selectbox__trigger::after {
 		right: 10px;
@@ -1889,11 +1889,21 @@
 	}
 	.item-product {
 		padding: 15px;
+		text-align: center;
 		padding-bottom: 22px;
 		display: block;
 	}
+	.item-product .title-section {
+		text-align: center;
+	}
+	.product-trainer {
+		justify-content: center;
+	}
+	.item-product__bottom {
+		justify-content: center;
+	}
 	.item-product__image {
-		margin-right: 0;
+		margin: 0 auto;
 		width: 300px;
 		height: 300px;
 		max-width: 100%;
@@ -1910,7 +1920,6 @@
 	.item-product__feature {
 		border: none;
 		padding-left: 0;
-		margin-left: 0;
 	}
 }
 
@@ -1970,6 +1979,13 @@
 	.table-rating table td,
 	.table-wrap table td {
 		min-width: 100vw;
+	}
+	.item-product__bottom {
+		flex-direction: column;
+		align-items: center;
+	}
+	.item-product__feature {
+		margin-left: 0;
 	}
 }
 /* Extra Small Devices, Phones */

@@ -164,9 +164,7 @@ p {
 	border-radius: 4px;
 	transition: all 0.3s;
 }
-.header__wrap .btn-main img {
-	margin-top: 0;
-}
+
 .social-list a img {
 transition: all 0.3s;
 }
@@ -1261,6 +1259,9 @@ filter: contrast(300%);
 	color: #FFDB5E;
 }
 .rating_5 > .rating__item:nth-child(-n+5) {
+	color: #FFDB5E;
+}
+.rating__item.active {
 	color: #FFDB5E;
 }
 .rating-wrap {
@@ -3299,9 +3300,10 @@ select {
 .products-block__item .rating_5 > *:nth-child(-n + 5) .rating__item i {
 	color: #ff358a;
 }
-.products-block__item .rating {
-	margin-top: -3px;
+.products-block__item .rating__item.active i {
+		color: #ff358a;
 }
+
 .products-block__item .rating__item i {
 	color: #d3d3ff;
 	font-size: 10px;
@@ -3322,7 +3324,7 @@ select {
 }
 .products-block__item {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 }
 .products-block__item:not(:last-child) {
 	margin-bottom: 20px;
@@ -3331,7 +3333,8 @@ select {
 	margin-top: 20px;
 }
 .products-block__descr {
-	margin-right: 20px;
+	padding-right: 10px;
+	margin-right: auto;
 	display: inline-block;
 }
 .title_right {
@@ -3689,8 +3692,9 @@ select {
 .rating-numbers {
 	font-size: 14px;
 	line-height: 20px;
+	white-space: nowrap;
 	color: #C0C0C9;
-	margin-top: 1px;
+	margin-top: 4px;
 }
 .rating-items .rating-area:not(:checked) > label:before {
 	content: "\f005";
@@ -4106,6 +4110,7 @@ select {
 }
 .item-product .btn-main:hover {
 	background-color: #946FDE;
+	border-color: #946FDE;
 	color: #fff;
 }
 .item-product__bottom {
@@ -4200,4 +4205,35 @@ select {
 	-moz-user-select: none;      /* Firefox */
 	-ms-user-select: none;       /* Internet Explorer/Edge */
 	user-select: none;    
+}
+.video-min {
+	display: block;
+	position: relative;
+}
+.video-min img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+.video-min_play {
+	width: 72px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	background-image: url(../img/play_yt.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.3s;
+	background-size: 100% 100%;
+}
+.video-min:hover .video-min_play {
+	transform: scale(1.05);
+}
+.btn-main {
+	padding-top: 2px;
 }
