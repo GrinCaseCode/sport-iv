@@ -4237,3 +4237,10 @@ select {
 .btn-main {
 	padding-top: 2px !important;
 }
+.best-diets__block_special {
+	margin-bottom: -30px;
+}
+.info-apart {
+	position: relative;
+	z-index: 11;
+} 
